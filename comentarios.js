@@ -1,0 +1,1 @@
+console.log(Teste) // Apenas para mostrar como faz comentários
