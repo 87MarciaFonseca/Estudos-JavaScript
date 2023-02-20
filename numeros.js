@@ -12,4 +12,6 @@ const total = avaliacao1 * peso1 + avaliacao2 * peso2
 const media = total / ( peso1 + peso2) 
 
 console.log(media.toFixed(2)) // Determinar números de casas decimas
-console.log(media.toString(2)) // número binarios
+console.log(media.toString(2)) // número binários
+console.log(typeof media)
+console.log(typeof Number)
