@@ -1,7 +1,7 @@
 const a = 7
 let b = 3
 
-b += a // b = b + a
+b += a // b = b + a . Se coloca o símbolo da operação antes do '='
 console.log(b)
 
 b -= 4 //b = b - 4
