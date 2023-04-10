@@ -7,8 +7,10 @@ function area(largura,altura){
     }
 }
 
+//embora a linguagem seja flexível ,os paramentos devem ser analizados antes do uso
+
 console.log(area(2,2))
 console.log(area(2))
 console.log(area())
 console.log(area(2,3,17,22,44))
-console.log(area(5,5))
+console.log(area(5,5))// retornou um erro ,tem tomar cuidado na hora usar parametros
