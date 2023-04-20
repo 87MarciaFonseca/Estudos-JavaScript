@@ -8,4 +8,5 @@ fabricantes.forEach(imprimir)//callback é passa uma função ,esse evento só v
 fabricantes.forEach(fabricantes => console.log(fabricantes))
 
 //exemplos: uma requisição ajax é um callback,porque é enviada de sucesso e fracasso, uma chamada é enviada
-//ao site para  se achar um lista de clientes se achar é  sucessso ,se tiver erro retorna  fracasso
+//ao site para  se achar um lista de clientes se achar é  sucessso ,se tiver erro retorna 
+ fracasso
