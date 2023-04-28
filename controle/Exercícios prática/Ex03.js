@@ -1,5 +1,7 @@
 function elevado(base,expoente){
-    return Math.pow(base,expoente)
+    Resultado = base ** expoente
 }
+
+return 'Resultado'
 
 console.log(elevado(4,2))
