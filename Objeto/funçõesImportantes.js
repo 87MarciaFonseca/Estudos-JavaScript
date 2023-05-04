@@ -5,11 +5,11 @@ const pessoa = {
 
 }
 
-console.log(Object.keys(pessoa))
-console.log(Object.values(pessoa))
-console.log(Object.entries(pessoa))
+console.log(Object.keys(pessoa))// objetos e chaves
+console.log(Object.values(pessoa)) // objeto e valores
+console.log(Object.entries(pessoa)) //entries e registos, array com dois elementos chave e valor
 
-Object.entries(pessoa).forEach(([chave,valor]) => {
+Object.entries(pessoa).forEach(([chave,valor]) => {// forEach para percorrer os array
     console.log(`${chave}: ${valor}`)
 })
 
