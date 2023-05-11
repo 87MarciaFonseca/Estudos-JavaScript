@@ -1,11 +1,11 @@
 // Cadeia de protótipos {prototype chain}
-Object.prototype.attr0 = '0'
+Object.prototype.attr0 = '0' // não faça isso em casa!!
 const avo = {attr1: 'A'}
 const pai = {__proto__: avo, attr2: 'B',attr3 :'3'}
-const filho = {__proto__: pai, attr3: 'C'}
+const filho = {__proto__: pai, attr3: 'C', attr3: '3'}
 console.log(filho.attr0, filho.attr1,filho.attr2, filho.attr3)
 
-const carro = {
+ const carro = {
     velAtual: 0,
     velMax: 200,
     acelerarMais(delta){
@@ -15,8 +15,8 @@ const carro = {
             this.velAtual = this.velMax
         }
     },
-    status(){
-        return `${this.velAtaul}km/h de ${this.velMax}km/h`
+    status() {
+        return `${this.velAtual}km/h de ${this.velMax}km/h`
     }
 }
 
@@ -33,14 +33,20 @@ const volvo = {
 
 }
 
-Object.setPrototypeOf(ferrari,carro) // função que estabelece uma relação de prótotipos
-Object.setPrototypeOf(volvo,carro)
+Object.setPrototypeOf(ferrari, carro) // função que estabelece uma relação de prótotipos
+Object.setPrototypeOf(volvo, carro)
+
 
 console.log(ferrari)
 console.log(volvo)
 
-volvo.acelerarMais(100)
+volvo.acelerarMais(100) //comando status não está funcionando ,a velAtual não está sendo calculada
 console.log(volvo.status())
 
 ferrari.acelerarMais(300)
 console.log(ferrari.status())
+
+
+
+
+
