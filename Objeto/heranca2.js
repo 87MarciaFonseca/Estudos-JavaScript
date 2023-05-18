@@ -10,7 +10,7 @@ console.log(filho.attr0, filho.attr1,filho.attr2, filho.attr3)
     velMax: 200,
     acelerarMais(delta){
         if (this.velAtual + delta <= this.velMax){
-            this.velMax += delta
+            this.velAtual += delta
         } else {
             this.velAtual = this.velMax
         }
