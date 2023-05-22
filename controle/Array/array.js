@@ -18,8 +18,19 @@ console.log(aprovados.length)
 
 aprovados[9] = ' Rafael'
 console.log(aprovados.length)
-console.log(aprovados[8]) === undefined
+console.log(aprovados[8] === undefined)
 
 console.log(aprovados)
-console.log(aprovados.sort())
+aprovados.sort()
+console.log(aprovados)
+
+delete aprovados [1]// excluir um atrib. de um obj
+console.log(aprovados[1])
+console.log(aprovados[2])
+
+aprovados = ['Bia','Carlos', 'Ana']
+aprovados.splice(1, 0 )
+console.log(aprovados)
+
+
 
